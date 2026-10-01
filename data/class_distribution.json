@@ -1,0 +1,61 @@
+{
+  "total_windows": 53360,
+  "splits": {
+    "train": {
+      "n": 37352,
+      "fraction": 0.7
+    },
+    "val": {
+      "n": 8004,
+      "fraction": 0.15
+    },
+    "test": {
+      "n": 8004,
+      "fraction": 0.15
+    }
+  },
+  "categories": {
+    "Executive Escalation": {
+      "total": 3228,
+      "pct": 6.05,
+      "train": 2328,
+      "val": 467,
+      "test": 433
+    },
+    "Supplier Escalation": {
+      "total": 4443,
+      "pct": 8.33,
+      "train": 3126,
+      "val": 650,
+      "test": 667
+    },
+    "Budget Reallocation": {
+      "total": 9404,
+      "pct": 17.62,
+      "train": 6583,
+      "val": 1404,
+      "test": 1417
+    },
+    "Monitoring Flag": {
+      "total": 12273,
+      "pct": 23.0,
+      "train": 8527,
+      "val": 1884,
+      "test": 1862
+    },
+    "Routine Variance": {
+      "total": 18676,
+      "pct": 35.0,
+      "train": 13056,
+      "val": 2825,
+      "test": 2795
+    },
+    "No Action": {
+      "total": 5336,
+      "pct": 10.0,
+      "train": 3732,
+      "val": 774,
+      "test": 830
+    }
+  }
+}

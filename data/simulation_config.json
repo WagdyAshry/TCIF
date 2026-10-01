@@ -1,0 +1,58 @@
+{
+  "seed": 2026,
+  "n_days": 2500,
+  "fiscal_period_days": 28,
+  "lookback": 90,
+  "horizons": [
+    7,
+    30,
+    90
+  ],
+  "n_cost_centres": 23,
+  "shocks": {
+    "copper": {
+      "events_per_year": 9.5,
+      "magnitude_mean": 0.2,
+      "magnitude_std": 0.08,
+      "clip": [
+        1.0,
+        1.55
+      ]
+    },
+    "demand": {
+      "events_per_year": 12.0,
+      "magnitude_mean": 0.2,
+      "magnitude_std": 0.08,
+      "clip": [
+        0.7,
+        1.55
+      ]
+    },
+    "labor": {
+      "events_per_year": 5.0,
+      "magnitude_range": [
+        0.2,
+        0.5
+      ],
+      "clip": [
+        1.0,
+        1.5
+      ]
+    }
+  },
+  "quantile_thresholds": {
+    "executive": 0.9,
+    "supplier": 0.82,
+    "budget": 0.68,
+    "monitor": 0.45,
+    "routine": 0.1
+  },
+  "decision_categories": [
+    "Executive Escalation",
+    "Supplier Escalation",
+    "Budget Reallocation",
+    "Monitoring Flag",
+    "Routine Variance",
+    "No Action"
+  ]
+}
